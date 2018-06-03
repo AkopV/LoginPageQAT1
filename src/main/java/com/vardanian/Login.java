@@ -131,11 +131,11 @@ public class Login {
 
         login.driver = new ChromeDriver();
 
-//        login.loginSuccess(BASE_URL);
-//        Thread.sleep(3000);
-//
-//        login.wrongLoginOrPassword(BASE_URL);
-//        Thread.sleep(3000);
+        login.loginSuccess(BASE_URL);
+        Thread.sleep(3000);
+
+        login.wrongLoginOrPassword(BASE_URL);
+        Thread.sleep(3000);
 
         login.sendEmail(BASE_URL);
         Thread.sleep(3000);
